@@ -20,12 +20,11 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+#Secondary-topic p{
+    text-align: center;
+}
 #news {
     display: flex;
-}
-#news1 p {
-    text-align: center;
 }
 #circles {
     display: flex;
@@ -52,6 +51,29 @@ body {
 #circle2:hover {
     opacity: 0.85;
 }
+#circle3 {
+    background-color: #5094d8;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.7;
+    margin-left: -30px;
+}
+#circle3:hover {
+    opacity: 0.85;
+}
+#Bottom-topics{
+    display: flex;
+}
+#Bottom{
+    display: flex;
+}
+#Bottom div{
+    border-top: 1px solid #888;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #footer {
     background-color: #252627;
     background-image: url(zabek.jpg);
